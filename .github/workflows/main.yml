@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: liangweeyet/nodefunction
+        uses: liangweeyet/nodefunction@v1.1
         with:
           who-to-greet: 'SG United!!!!'
       # Use the output from the `hello` step
