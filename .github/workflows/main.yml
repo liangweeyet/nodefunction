@@ -9,7 +9,7 @@ jobs:
         id: hello
         uses: liangweeyet/nodefunction@v1.1
         with:
-          who-to-greet: 'SG United!!!!'
+          who-to-greet: 'SG United!!!!!'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
